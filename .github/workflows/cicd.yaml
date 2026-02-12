@@ -56,7 +56,7 @@ jobs:
 
     permissions:
       contents: read
-      id-token: write   # 🔥 Required for OIDC test
+      id-token: write   # 🔥 Required for OIDC
 
     steps:
       - name: Checkout
